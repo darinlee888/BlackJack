@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/CLion Programs/BlackJack/AIPlayer.cpp
+AIPlayer.h
+/cygdrive/d/CLion Programs/BlackJack/AIPlayer.h
+iostream
+-
+chrono
+-
+random
+-
+
+/cygdrive/d/CLion Programs/BlackJack/AIPlayer.h
+Player.h
+/cygdrive/d/CLion Programs/BlackJack/Player.h
+
+/cygdrive/d/CLion Programs/BlackJack/Card.cpp
+Card.h
+/cygdrive/d/CLion Programs/BlackJack/Card.h
+
+/cygdrive/d/CLion Programs/BlackJack/Card.h
+string
+-
+
+/cygdrive/d/CLion Programs/BlackJack/Deck.cpp
+Deck.h
+/cygdrive/d/CLion Programs/BlackJack/Deck.h
+chrono
+-
+random
+-
+
+/cygdrive/d/CLion Programs/BlackJack/Deck.h
+Card.h
+/cygdrive/d/CLion Programs/BlackJack/Card.h
+vector
+-
+
+/cygdrive/d/CLion Programs/BlackJack/HumanPlayer.cpp
+HumanPlayer.h
+/cygdrive/d/CLion Programs/BlackJack/HumanPlayer.h
+iostream
+-
+
+/cygdrive/d/CLion Programs/BlackJack/HumanPlayer.h
+Player.h
+/cygdrive/d/CLion Programs/BlackJack/Player.h
+
+/cygdrive/d/CLion Programs/BlackJack/Player.cpp
+Player.h
+/cygdrive/d/CLion Programs/BlackJack/Player.h
+iostream
+-
+
+/cygdrive/d/CLion Programs/BlackJack/Player.h
+Card.h
+/cygdrive/d/CLion Programs/BlackJack/Card.h
+vector
+-
+
+/cygdrive/d/CLion Programs/BlackJack/main.cpp
+iostream
+-
+random
+-
+chrono
+-
+functional
+-
+HumanPlayer.h
+/cygdrive/d/CLion Programs/BlackJack/HumanPlayer.h
+AIPlayer.h
+/cygdrive/d/CLion Programs/BlackJack/AIPlayer.h
+Deck.h
+/cygdrive/d/CLion Programs/BlackJack/Deck.h
+
